@@ -2,3 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+.easy-button{
+  padding:8px 16px;
+  background-color: #467ef7;
+  color:white;
+  border-radius:4px;
+  font: bold;
+  margin:40px;
+}
+
+.easy-button:hover{
+  background-color: #386ad6;
+}
+
+
+.btn{
+  @apply font-bold py-2 px-4 rounded m-10;
+}
+.btn-blue{
+  @apply bg-blue-500 hover:bg-blue-600 text-white;
+}
+.btn-blue:hover{
+  @apply hover:bg-blue-600
+}

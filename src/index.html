@@ -4,11 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
-  <title>ポートフォリオサイト</title>
+  <title>Tailwindcss入門</title>
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <div class="border border-blue-400 p-16 m-10">
+    <h1 class="font-bold text-3xl  sm:text-red-950 md:text-red-800 lg:text-red-600 xl:text-red-400 lg:text-7xl">
+      Tailwindcss入門
+    </h1>
+  </div>
+  <div class="border border-blue-400 p-16 m-10">
+    <h1 class="text-7xl font-bold">
+      Tailwindcss入門
+    </h1>
+  </div>
+  <button class="easy-button">ボタンbycss</button>
+  <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-10">
+    ボタンbyTailwindcss
+  </button>
+  <button class="btn-blue btn">
+    ボタンbyTailwindcss-2
+  </button>
+  <!-- bg-blue-400だと薄いけど500だと濃すぎるんだよなぁ
+   →カスタマイズデザイン（tailwind.configを使用） -->
+  <button class="btn bg-primary-500">
+    ボタン
+  </button>
 </body>
 </html>
